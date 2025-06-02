@@ -5,7 +5,7 @@ const db = {};
 
 const sequelize = new Sequelize({
   dialect: 'sqlite',
-  storage: 'database/db.sqlite'
+  storage: 'src/database/db.sqlite'
 });
 
 db.Building = buildingInitializer(sequelize);
